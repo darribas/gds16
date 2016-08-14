@@ -19,7 +19,9 @@ before_install:
   - chmod +x ci_tester.sh
 
 script: 
-  - ./ci_tester.sh
+  - jupyter nbconvert --to markdown --execute --ExecutePreprocessor.timeout=120 content/infrastructure/check_gds_stack.ipynb
+  - cd content/labs
+  - jupyter nbconvert --execute --ExecutePreprocessor.timeout=120 *.ipynb
 
 notifications:
     email:

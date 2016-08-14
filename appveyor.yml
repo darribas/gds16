@@ -21,5 +21,6 @@ install:
 test_script:
   - ci_tester.sh
   - jupyter nbconvert --to markdown --execute --ExecutePreprocessor.timeout=120 content/infrastructure/check_gds_stack.ipynb
-  - jupyter nbconvert --execute --ExecutePreprocessor.timeout=120 content/labs/*.ipynb
+  - cd content/labs
+  - jupyter nbconvert --execute --ExecutePreprocessor.timeout=120 *.ipynb
 
