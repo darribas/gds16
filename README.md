@@ -1,5 +1,10 @@
 # Geographic Data Science
 
+| OS      | Status |
+| ------- | -----------------|
+| Linux & macOS   | [![Build Status](https://travis-ci.org/darribas/gds16.svg?branch=master)](https://travis-ci.org/darribas/gds16) |
+| Windows | <image https://ci.appveyor.com/api/projects/status/nlobj16coto8k0rv?svg=true width="100"> |
+
 * [Dani Arribas-Bel](http://darribas.org) ([@darribas](http://darribas.org))
 
 Material and website for the course Geographic Data Science'16, taught
