@@ -1,0 +1,30 @@
+language: c
+sudo: false
+branches:
+only:
+  - master
+os:
+  - linux
+  - osx
+before_install:
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then wget https://repo.continuum.io/miniconda/Miniconda2-latest-MacOSX-x86_64.sh -O miniconda.sh; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -O miniconda.sh; fi
+  - chmod +x miniconda.sh
+  - ./miniconda.sh -b -p ./miniconda
+  - export PATH=`pwd`/miniconda/bin:$PATH
+  - conda update --yes conda
+  - conda install --yes psutil
+  - conda-env create -f content/infrastructure/install_gds_stack.yml
+  - source activate gds
+
+script: 
+  - jupyter nbconvert --to markdown --execute --ExecutePreprocessor.timeout=120 content/infrastructure/check_gds_stack.ipynb
+  - jupyter nbconvert --execute --ExecutePreprocessor.timeout=120 content/labs/*.ipynb
+
+notifications:
+    email:
+        recipients:
+            - daniel.arribas.bel@gmail.com
+        on_failure: always
+
+
