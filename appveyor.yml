@@ -13,10 +13,13 @@ install:
   - "set PATH=%MINICONDA%;%MINICONDA%\\Scripts;%PATH%"
   - conda config --set always_yes yes --set changeps1 no
   - conda update -q conda
+  - conda install --yes psutil
   - conda info -a
   - "conda-env create -f content/infrastructure/install_gds_stack.yml"
   - activate gds
 
 test_script:
   - ci_tester.sh
+  - jupyter nbconvert --to markdown --execute --ExecutePreprocessor.timeout=120 content/infrastructure/check_gds_stack.ipynb
+  - jupyter nbconvert --execute --ExecutePreprocessor.timeout=120 content/labs/*.ipynb
 
