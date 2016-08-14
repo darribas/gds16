@@ -1,33 +1,23 @@
 # Geographic Data Science
 
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.46313.svg)](http://dx.doi.org/10.5281/zenodo.46313)
+| OS      | Status |
+| ------- | -----------------|
+| Linux & macOS   | [![Build Status](https://travis-ci.org/darribas/gds16.svg?branch=master)](https://travis-ci.org/darribas/gds16) |
+| Windows | <image https://ci.appveyor.com/api/projects/status/nlobj16coto8k0rv?svg=true width="100"> |
 
 * [Dani Arribas-Bel](http://darribas.org) ([@darribas](http://darribas.org))
 
-Material and website for the course Geographic Data Science'15, taught
+Material and website for the course Geographic Data Science'16, taught
 by Dani Arribas-Bel at the University of Liverpool. The course was open to
-last year undergraduate and master students.
+last-year undergraduate and master students.
 
 This repository contains all the materials used, but the preferred way to
 access them is through the website:
 
-> [http://darribas.org/gds15](http://darribas.org/gds15)
+> [http://darribas.org/gds16](http://darribas.org/gds16)
 
-## Citation
+**NOTE**: This course is an evolution and update of [GDS'15](http://darribas.org/gds15).
 
-If you use material from this course, I would appreciate if you used the
-following citation:
-
-```
-@online{darribas_gds15,
-  author = {Dani Arribas-Bel},
-  title = {Geographic Data Science'15},
-  year = 2016,
-  url = {http://darribas.org/gds15},
-  urldate = {2016-02-19}
-  doi = {10.5281/zenodo.46313}
-}
-```
 
 ## License
 
