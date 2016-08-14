@@ -16,10 +16,10 @@ before_install:
   - conda install --yes psutil
   - conda-env create -f content/infrastructure/install_gds_stack.yml
   - source activate gds
+  - chmod +x ci_tester.sh
 
 script: 
-  - jupyter nbconvert --to markdown --execute --ExecutePreprocessor.timeout=120 content/infrastructure/check_gds_stack.ipynb
-  - jupyter nbconvert --execute --ExecutePreprocessor.timeout=120 content/labs/*.ipynb
+  - ./ci_tester.sh
 
 notifications:
     email:
