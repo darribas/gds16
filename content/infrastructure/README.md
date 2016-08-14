@@ -3,7 +3,8 @@
 | OS      | Status |
 | ------- | -----------------|
 | Linux & macOS   | [![Build Status](https://travis-ci.org/darribas/gds16.svg?branch=master)](https://travis-ci.org/darribas/gds16) |
-| Windows | <image https://ci.appveyor.com/api/projects/status/nlobj16coto8k0rv?svg=true width="100"> |
+[![Build status](https://ci.appveyor.com/api/projects/status/nlobj16coto8k0rv?svg=true)](https://ci.appveyor.com/project/darribas/gds16)
+| Windows |  |
 
 This course is best followed if you can reproduce the examples and tutorials
 provided with it. To do so, you will need to install in your machine a series
