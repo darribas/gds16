@@ -1,5 +1,5 @@
 ---
-title: Lab 5 - Spatial Weights
+title: Lab 5 - ESDA
 ---
 
 ### Notebook
@@ -10,15 +10,11 @@ title: Lab 5 - Spatial Weights
 
 ### Data
 
-This session uses the **"Index of Multiple Deprivation""** dataset. Go to the
+This session uses the **"John Snow's Cholera map""** dataset. Go to the
 [Datasets](../datasets.html) tab to find out more information as well as instructions to
 download it.
 
 ### Additional materials
 
-* The ["User
-  Guides"](http://pysal.readthedocs.org/en/latest/users/tutorials/index.html) in `PySAL`'s documentation are an excellent resource to
-  better get to know the library. 
-* For this lab, the one about [Spatial
-  Weights](http://pysal.readthedocs.org/en/latest/users/tutorials/weights.html)
-  is particularly useful.
+* The ["Spatial Autocorrelation"](http://pysal.readthedocs.org/en/latest/users/tutorials/autocorrelation.html) in `PySAL`'s documentation is a good extension to the topics covered in this session. It illustrates other statistics beyond those covered in class, albeit it does so in a more advanced fashion. 
+

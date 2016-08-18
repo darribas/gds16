@@ -1,5 +1,5 @@
 ---
-title: Lab 4 - Automated choropleths
+title: Lab 4 - Spatial Weights
 ---
 
 ### Notebook
@@ -10,17 +10,15 @@ title: Lab 4 - Automated choropleths
 
 ### Data
 
-This session uses the **"Index of Multiple Deprivation""** dataset as well as the
-Ordnance Survey **(OS) Geodata Pack**. Go to the
+This session uses the **"Index of Multiple Deprivation""** dataset. Go to the
 [Datasets](../datasets.html) tab to find out more information as well as instructions to
 download it.
 
-Additionally, you will need the raster file for the basemap of Liverpool. This
-has been assembled by [Dani Arribas-Bel](http://darribas.org) from the [OS VectorMap District (Backdrop
-Raster)](https://www.ordnancesurvey.co.uk/business-and-government/products/vectormap-district.html), 
-and it is licensed as OpenData. The file is available for download on the
-following link:
+### Additional materials
 
-> [http://darribas.org/gds15/content/labs/figs/lab04_liverpool.tif](http://darribas.org/gds15/content/labs/figs/lab04_liverpool.tif)
-
-
+* The ["User
+  Guides"](http://pysal.readthedocs.org/en/latest/users/tutorials/index.html) in `PySAL`'s documentation are an excellent resource to
+  better get to know the library. 
+* For this lab, the one about [Spatial
+  Weights](http://pysal.readthedocs.org/en/latest/users/tutorials/weights.html)
+  is particularly useful.

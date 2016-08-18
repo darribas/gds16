@@ -1,8 +1,8 @@
 ---
-title: Week 11 - GDS Applications
+title: Week 11 - Geographic Data Science in Action
 ---
 
-**[Slides** - [html](../revealjs/intro_esda1.html)**]**
+[TBA]
 
 ### Related readings
 

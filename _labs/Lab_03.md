@@ -1,5 +1,5 @@
 ---
-title: Lab 3 - (Geo)Visualization
+title: Lab 3 - Automated choropleths
 ---
 
 ### Notebook
@@ -10,18 +10,17 @@ title: Lab 3 - (Geo)Visualization
 
 ### Data
 
-This session uses the **"Census socio-demographics"** dataset as well as the
+This session uses the **"Index of Multiple Deprivation""** dataset as well as the
 Ordnance Survey **(OS) Geodata Pack**. Go to the
 [Datasets](../datasets.html) tab to find out more information as well as instructions to
 download it.
 
-### Additional materials
+Additionally, you will need the raster file for the basemap of Liverpool. This
+has been assembled by [Dani Arribas-Bel](http://darribas.org) from the [OS VectorMap District (Backdrop
+Raster)](https://www.ordnancesurvey.co.uk/business-and-government/products/vectormap-district.html), 
+and it is licensed as OpenData. The file is available for download on the
+following link:
 
-* A good introduction to the `geopandas` project is provided by Kelsey
-  Jordahl, the project's founder in this [set of
-  slides](http://kjordahl.github.io/SciPy-Tutorial-2015/#1) from a 2015 talk and the companion
-  [repository](https://github.com/kjordahl/SciPy-Tutorial-2015).
-* An additional great resource is this 4h.
-  [workshop](https://github.com/carsonfarmer/python_geospatial) by Carson
-  Farmer.
+> [http://darribas.org/gds15/content/labs/figs/lab04_liverpool.tif](http://darribas.org/gds15/content/labs/figs/lab04_liverpool.tif)
+
 

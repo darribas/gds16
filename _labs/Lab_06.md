@@ -1,5 +1,5 @@
 ---
-title: Lab 6 - ESDA
+title: Lab 6 - Clustering
 ---
 
 ### Notebook
@@ -10,11 +10,13 @@ title: Lab 6 - ESDA
 
 ### Data
 
-This session uses the **"John Snow's Cholera map""** dataset. Go to the
+This session uses the **"AirBnb listing for Inner London - MSOA level"** dataset. Go to the
 [Datasets](../datasets.html) tab to find out more information as well as instructions to
 download it.
 
 ### Additional materials
 
-* The ["Spatial Autocorrelation"](http://pysal.readthedocs.org/en/latest/users/tutorials/autocorrelation.html) in `PySAL`'s documentation is a good extension to the topics covered in this session. It illustrates other statistics beyond those covered in class, albeit it does so in a more advanced fashion. 
+* Although a bit more advanced, the documentation for [`scikit-learn`](http://scikit-learn.org),
+  a world-class Python library for machine learning, is excellent and includes many examples
+  that cover the entire functionality set of the library.
 

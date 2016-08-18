@@ -1,5 +1,5 @@
 ---
-title: Lab 1 - Tools
+title: Lab 1 - Tidy Data
 ---
 
 ### Notebook
@@ -8,20 +8,27 @@ title: Lab 1 - Tools
 - [html](../content/labs/lab_01.html)
 - [pdf](../content/labs/lab_01.pdf)
 
+### Data
+
+This session uses the **"Census socio-demographics"** dataset. Go to the
+[Datasets](../datasets.html) tab to find out more information as well as instructions to
+download it.
+
 ### Additional materials
 
-If you want to explore further by yourself the contents presented in this
-tutorial, the following pointers are good places to start:
-
-* [**Video**] ["Python as Super Glue for the Modern Scientific
-  Workflow"](https://www.youtube.com/watch?v=mLuIB8aW2KA), keynote speech by Prof. Joshua Bloom from UC Berkley about how Python is used in Astronomy research.
-* Gallery of [interesting notebooks](https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks): a wealth of examples of Jupyter (formerly called IPython) notebooks.
-* {% cite downey2012 %}: very good general introduction to Python as a
-  programming language and to the algorithmic way of thinking. The
-  [book](http://www.greenteapress.com/thinkpython/thinkpython.html) is
-  freely available in
-  [HTML](http://www.greenteapress.com/thinkpython/html/index.html) and
-  [PDF](http://www.greenteapress.com/thinkpython/thinkpython.pdf).
+* A good extension of this session is {% cite Wickham:2014:JSSOBK:v59i10 %}. The
+  paper is published under an Open Access license so it is freely available on
+  the journal's site, but the author has also made available a public
+  [repository](https://github.com/hadley/tidy-data) with the data and code
+  used in the paper. Keep in mind the paper and the code that comes with it
+  are based on R, not on Python.
+* **[Visualization]** Python library `seaborn`
+  [tutorial](http://stanford.edu/~mwaskom/software/seaborn/tutorial.html).
+* **[Recommended]** {% cite mckinney2012python %}: excellent introduction to 
+  Python for data analysis, with plenty of examples and code snippets
+  (Publisher's page [link](http://shop.oreilly.com/product/0636920023784.do)).
+* [NY Times
+  article](http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0) about the importance of cleaning data.
 
 ### References
 
