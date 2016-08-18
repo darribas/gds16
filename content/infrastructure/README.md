@@ -139,9 +139,7 @@ To check things have installed correctly, an additional file is included, `check
 You should now see `(gds)` on the beginning of the line at the
 terminal/command prompt. You can now run the test as:
 
-    ```
-    jupyter nbconvert --execute check_gds_stack.ipynb
-    ```
+`jupyter nbconvert --execute check_gds_stack.ipynb`
 
 This will run and, when finished, produce an HTML file in the same folder.
 Open it and check there are no errors reported. If that is the case, you are
