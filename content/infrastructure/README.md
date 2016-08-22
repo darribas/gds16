@@ -1,9 +1,13 @@
 # Software
 
-| OS      | Status |
-| ------- | -----------------|
-| Linux & macOS   | [![Build Status](https://travis-ci.org/darribas/gds16.svg?branch=master)](https://travis-ci.org/darribas/gds16) |
-| Windows | [![Build status](https://ci.appveyor.com/api/projects/status/nlobj16coto8k0rv?svg=true)](https://ci.appveyor.com/project/darribas/gds16) |
+---
+
+| <CENTER>OS</CENTER>    | | <CENTER>Status</CENTER> |
+| ------- | ----- | -----------------|
+| Linux & macOS  | | [![Build Status](https://travis-ci.org/darribas/gds16.svg?branch=master)](https://travis-ci.org/darribas/gds16) |
+| Windows |  | [![Build status](https://ci.appveyor.com/api/projects/status/nlobj16coto8k0rv?svg=true)](https://ci.appveyor.com/project/darribas/gds16) |
+
+---
 
 This course is best followed if you can reproduce the examples and tutorials
 provided with it. To do so, you will need to install in your machine a series
@@ -17,17 +21,13 @@ install them in different platforms.
 This guide assumes you have the following additional files, available to
 download by clicking:
 
-* `install_gds_stack`([Windows](content/infrastructure/install_gds_stack_win.bat), 
-[Mac/Linux](content/infrastructure/install_gds_stack_unix.sh))
+* [`install_gds_stack.yml`](content/infrastructure/install_gds_stack.yml)
 *  [`check_gds_stack.ipynb`](content/infrastructure/check_gds_stack.ipynb)
 
-[Required for the Vagrant option only]
-
-* [`Vagrantfile`](content/infrastructure/Vagrantfile)
-* [`bootstrap.sh`](content/infrastructure/bootstrap.sh)
-* [`launchenv.sh`](content/infrastructure/launchenv.sh)
-
 ## Dependencies
+
+The course requires the following libraries to be installed on your machine.
+The guide below provides instructions to install them satisfactory.
 
 * [`IPython`](http://ipython.org) 
 * [`Jupyter`](https://jupyter.org)
@@ -65,99 +65,83 @@ to install a full scientific Python distribution. Although other good alternativ
 are also available (e.g. [Canopy](https://www.enthought.com/products/canopy/),
 [Sage](http://www.sagemath.org)), we recommend to install
 [Anaconda](https://store.continuum.io/cshop/anaconda/). Make sure, whichever
-option you pick, to install a Python 2 version, not Python 3. Please follow the
+option you pick, to install a **Python 2.7** version, NOT Python 3. Please follow the
 instructions provided in the link for installation.
 
 Once you have a fully working Anaconda distribution installed in your
 computer, you can setup an isolated environment that contains all the required
-libraries by simply running the install script `install_gds_stack_X.sh` provided
-with this guide. These scripts vary depending on the platform you are on. 
+libraries by running the install script provided
+with this guide. Exact instructions vary depending on the platform you are on. 
 
-#### Mac OSX/Linux
+#### macOS/Linux
 
-Open up a terminal (OSX and Linux) or  Powershell/cmd prompt
-(Windows) and run the following commands:
+Open up a terminal ("Applications --> Utilities --> Terminal" in macOS and 
+"ctr+alt+T" in Linux) and run the following commands:
 
-* Navigate to the folder where this file is:
+* Navigate to the folder where this file is (e.g. Downloads):
 
     ```
     cd /path/to/folder/
     ```
 
-* Make the script executable:
+* Execute the following command:
 
     ```
-    chmod +x install_gds_stack_unix.sh
+    conda-env create -f install_gds_stack.yml
     ```
 
-* Execute the script:
+* Once this has run, you should be able to activate the environment:
 
     ```
-    ./install_gds_stack_unix.sh
+    source activate gds
     ```
-
-Once this has run, you should be able to activate the environment:
 
 #### Windows
 
-Simply double-click on the `install_gds_stack_win.bat` file, this will set in
-motion the installation.
+Open up the Anaconda Command Prompt (search for it on the Startup Menu) and
+run the following commands:
 
-**NOTE**: this assumes your Anaconda installation is placed under
-`C:\Anaconda`. If this is not the case, you will have to open the file with a
-text editor and replace the path in line 8, where it says:
-
-```
-set ANACONDA_DIR=C:\Anaconda
-```
-
-By the path to your Anaconda installation.
-
-### Virtual Machine with Vagrant
-
-[**NOTE**: this is an alternative to the option above]
-
-A fully automated and reproducible approach, albeit less "native" to the local
-machine, is to install a virtual machine using Vagrant. This takes some of the
-complexities away, but requires an extra layer of computation on top of the
-native OS. To install a virtual machine, follow these steps:
-
-* Install Vagrant from the following link:
-
-    - [https://www.vagrantup.com](https://www.vagrantup.com)
-
-* Navigate to the folder where this file is:
+* Navigate to the folder where this file is (e.g. Downloads):
 
     ```
     cd /path/to/folder/
     ```
 
-* Run the following command. The first time, it will take a relative long time
-  as it has to download a large amount of files (in fact, an entirely OS).
-  Subsequent times, it is much faster:
+* Execute the following command:
 
     ```
-    vagrant up
+    conda-env create -f install_gds_stack.yml
     ```
+
+* Once this has run, you should be able to activate the environment:
+
+    ```
+    activate gds
+    ```
+
 
 ## Check
 
-To check things have installed correctly, an additional file is included, `check_gds_stack.ipynb`. To run it, open a terminal (PowerShell), navigate to the folder as showed above and type the following in Mac/Linux:
+To check things have installed correctly, an additional file is included, `check_gds_stack.ipynb`. To run the check, open a terminal (macOS/Linux) or the Anaconda Command Prompt (Windows), navigate to the folder as showed above and activate the environment:
 
-```
-source activate gds
-```
+* macOS/Linux:
 
-Or the following for Windows:
+    ```
+    source activate gds
+    ```
 
-```
-activate gds
-```
+* Windows:
 
-And then:
+    ```
+    activate gds
+    ```
 
-```
-jupyter notebook
-```
+You should now see `(gds)` on the beginning of the line at the
+terminal/command prompt. You can now run the test as:
 
-This will open up a browser window with a list of the files in the folder. Click on `check_gds_stack.ipynb`, which will open a new tab in the browser. Navigate to Cell --> Run All and click on it. If you do not get any error and all the cells except for the first one return `True`, things went well.
+`jupyter nbconvert --execute check_gds_stack.ipynb`
+
+This will run and, when finished, produce an HTML file in the same folder.
+Open it and check there are no errors reported. If that is the case, you are
+good to go!
+

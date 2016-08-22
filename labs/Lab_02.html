@@ -7,7 +7,7 @@
   <meta name="author" content="Dani Arribas-Bel">
   <meta name="description" content="An introduction to Geographic Data Science">
 
-  <title>GDS16 &mdash; Lab 2 - Tidy Data</title>
+  <title>GDS16 &mdash; Lab 2 - (Geo)Visualization</title>
 
   <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="../assets/css/course-site-custom.css" rel="stylesheet">
@@ -70,15 +70,15 @@
               
               <li><a href="../notes/Class_06.html">Week 6 - ESDA</a></li>
               
-              <li><a href="../notes/Class_08.html">Week 8 - Clustering</a></li>
+              <li><a href="../notes/Class_07.html">Week 7 - Clustering</a></li>
               
-              <li><a href="../notes/Class_09.html">Week 9 - Points</a></li>
+              <li><a href="../notes/Class_08.html">Week 8 - Points</a></li>
               
-              <li><a href="../notes/Class_10.html">Week 10 - Causal Inference</a></li>
+              <li><a href="../notes/Class_09.html">Week 09 - Causal Inference</a></li>
               
-              <li><a href="../notes/Class_11.html">Week 11 - GDS Applications</a></li>
+              <li><a href="../notes/Class_10.html">Week 10 - Assignment 1 recap</a></li>
               
-              <li><a href="../notes/Class_12.html">Week 12 - Geographic Data Science in Action</a></li>
+              <li><a href="../notes/Class_11.html">Week 11 - Geographic Data Science in Action</a></li>
               
               
             </ul>
@@ -88,21 +88,21 @@
             <ul class="dropdown-menu">
               
               
-              <li><a href="../labs/Lab_01.html">Lab 1 - Tools</a></li>
+              <li><a href="../labs/Lab_00.html">Lab 0 - Tools</a></li>
               
-              <li><a href="../labs/Lab_02.html">Lab 2 - Tidy Data</a></li>
+              <li><a href="../labs/Lab_01.html">Lab 1 - Tidy Data</a></li>
               
-              <li><a href="../labs/Lab_03.html">Lab 3 - (Geo)Visualization</a></li>
+              <li><a href="../labs/Lab_02.html">Lab 2 - (Geo)Visualization</a></li>
               
-              <li><a href="../labs/Lab_04.html">Lab 4 - Automated choropleths</a></li>
+              <li><a href="../labs/Lab_03.html">Lab 3 - Automated choropleths</a></li>
               
-              <li><a href="../labs/Lab_05.html">Lab 5 - Spatial Weights</a></li>
+              <li><a href="../labs/Lab_04.html">Lab 4 - Spatial Weights</a></li>
               
-              <li><a href="../labs/Lab_06.html">Lab 6 - ESDA</a></li>
+              <li><a href="../labs/Lab_05.html">Lab 5 - ESDA</a></li>
               
-              <li><a href="../labs/Lab_08.html">Lab 8 - Clustering</a></li>
+              <li><a href="../labs/Lab_06.html">Lab 6 - Clustering</a></li>
               
-              <li><a href="../labs/Lab_09.html">Lab 9 - Points</a></li>
+              <li><a href="../labs/Lab_07.html">Lab 7 - Points</a></li>
               
               
             </ul>
@@ -125,7 +125,7 @@
   <div class="container" id="body">
 
     
-    <h2>Lab 2 - Tidy Data</h2>
+    <h2>Lab 2 - (Geo)Visualization</h2>
     
 
     <h3 id="notebook">Notebook</h3>
@@ -138,33 +138,22 @@
 
 <h3 id="data">Data</h3>
 
-<p>This session uses the <strong>“Census socio-demographics”</strong> dataset. Go to the
+<p>This session uses the <strong>“Census socio-demographics”</strong> dataset as well as the
+Ordnance Survey <strong>(OS) Geodata Pack</strong>. Go to the
 <a href="../datasets.html">Datasets</a> tab to find out more information as well as instructions to
 download it.</p>
 
 <h3 id="additional-materials">Additional materials</h3>
 
 <ul>
-  <li>A good extension of this session is <a href="#Wickham:2014:JSSOBK:v59i10">(Wickham, 2014)</a>. The
-paper is published under an Open Access license so it is freely available on
-the journal’s site, but the author has also made available a public
-<a href="https://github.com/hadley/tidy-data">repository</a> with the data and code
-used in the paper. Keep in mind the paper and the code that comes with it
-are based on R, not on Python.</li>
-  <li><strong>[Visualization]</strong> Python library <code class="highlighter-rouge">seaborn</code>
-<a href="http://stanford.edu/~mwaskom/software/seaborn/tutorial.html">tutorial</a>.</li>
-  <li><strong>[Recommended]</strong> <a href="#mckinney2012python">(McKinney, 2012)</a>: excellent introduction to 
-Python for data analysis, with plenty of examples and code snippets
-(Publisher’s page <a href="http://shop.oreilly.com/product/0636920023784.do">link</a>).</li>
-  <li><a href="http://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html?_r=0">NY Times
-article</a> about the importance of cleaning data.</li>
+  <li>A good introduction to the <code class="highlighter-rouge">geopandas</code> project is provided by Kelsey
+Jordahl, the project’s founder in this <a href="http://kjordahl.github.io/SciPy-Tutorial-2015/#1">set of
+slides</a> from a 2015 talk and the companion
+<a href="https://github.com/kjordahl/SciPy-Tutorial-2015">repository</a>.</li>
+  <li>An additional great resource is this 4h.
+<a href="https://github.com/carsonfarmer/python_geospatial">workshop</a> by Carson
+Farmer.</li>
 </ul>
-
-<h3 id="references">References</h3>
-
-<ol class="bibliography"><li><span id="mckinney2012python">McKinney, W. (2012). <i>Python for data analysis: Data wrangling with Pandas, NumPy, and
-      IPython</i>. O’Reilly Media, Inc.</span></li>
-<li><span id="Wickham:2014:JSSOBK:v59i10">Wickham, H. (2014). Tidy Data. <i>Journal of Statistical Software</i>, <i>59</i>(10), ??–?? Retrieved from http://www.jstatsoft.org/v59/i10</span></li></ol>
 
 
 

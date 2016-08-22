@@ -1,4 +1,4 @@
-lectures: le01 le02 le03 le04 le05 le06 le07
+lectures: le01 le02 le03 le04 le05 le06 le07 le08 le09 le10
 le01:
 	pandoc -t html5 --template=slides/template.revealjs --standalone --section-divs --variable theme="journal"   --variable transition="linear" content/lectures/lecture_01.md -o slides/lecture_01.html
 	decktape automatic -s 1280x960 slides/lecture_01.html slides/lecture_01.pdf
@@ -17,21 +17,24 @@ le05:
 le06:
 	pandoc -t html5 --template=slides/template.revealjs --standalone --section-divs --variable theme="journal"   --variable transition="linear" content/lectures/lecture_06.md -o slides/lecture_06.html
 	decktape automatic -s 1280x960 slides/lecture_06.html slides/lecture_06.pdf
+le07:
+	pandoc -t html5 --template=slides/template.revealjs --standalone --section-divs --variable theme="journal"   --variable transition="linear" content/lectures/lecture_07.md -o slides/lecture_07.html
+	decktape automatic -s 1280x960 slides/lecture_07.html slides/lecture_07.pdf
 le08:
 	pandoc -t html5 --template=slides/template.revealjs --standalone --section-divs --variable theme="journal"   --variable transition="linear" content/lectures/lecture_08.md -o slides/lecture_08.html
-	decktape automatic -s 1280x960 slides/lecture_08.html slides/lecture_08.pdf
+	decktape automatic -s 1290x960 slides/lecture_08.html slides/lecture_08.pdf
 le09:
 	pandoc -t html5 --template=slides/template.revealjs --standalone --section-divs --variable theme="journal"   --variable transition="linear" content/lectures/lecture_09.md -o slides/lecture_09.html
 	decktape automatic -s 1290x960 slides/lecture_09.html slides/lecture_09.pdf
-le10:
-	pandoc -t html5 --template=slides/template.revealjs --standalone --section-divs --variable theme="journal"   --variable transition="linear" content/lectures/lecture_10.md -o slides/lecture_10.html
-	decktape automatic -s 1290x960 slides/lecture_10.html slides/lecture_10.pdf
 	pandoc -t html5 --template=slides/template.revealjs --standalone --section-divs --variable theme="journal"   --variable transition="linear" content/lectures/assignment02.md -o slides/assignment02.html
 
-labs: la01 la02 la03 la04 la05 la06 la08 la09
+labs: la00 la01 la02 la03 la04 la05 la06 la07
+la00:
+	cd content/labs && jupyter nbconvert --to html lab_00.ipynb --output lab_00.html
+	cd content/labs && jupyter nbconvert --to latex lab_00.ipynb --output lab_00.tex && texbuild lab_00.tex && rm lab_00.tex
 la01:
 	cd content/labs && jupyter nbconvert --to html lab_01.ipynb --output lab_01.html
-	cd content/labs && jupyter nbconvert --to latex lab_01.ipynb --output lab_01.tex && texbuild lab_01.tex && rm lab_01.tex
+	cd content/labs && jupyter nbconvert --to latex lab_01.ipynb --output lab_01.tex && texbuild lab_01.tex && rm lab_01.tex && rm -R lab_01_files/
 la02:
 	cd content/labs && jupyter nbconvert --to html lab_02.ipynb --output lab_02.html
 	cd content/labs && jupyter nbconvert --to latex lab_02.ipynb --output lab_02.tex && texbuild lab_02.tex && rm lab_02.tex && rm -R lab_02_files/
@@ -46,16 +49,13 @@ la05:
 	cd content/labs && jupyter nbconvert --to latex lab_05.ipynb --output lab_05.tex && texbuild lab_05.tex && rm lab_05.tex && rm -R lab_05_files/
 la06:
 	cd content/labs && jupyter nbconvert --to html lab_06.ipynb --output lab_06.html
+	cd content/labs && jupyter nbconvert --to html lab_06_airbnb_data_prep.ipynb --output lab_06_airbnb_data_prep.html
 	cd content/labs && jupyter nbconvert --to latex lab_06.ipynb --output lab_06.tex && texbuild lab_06.tex && rm lab_06.tex && rm -R lab_06_files/
-la08:
-	cd content/labs && jupyter nbconvert --to html lab_08.ipynb --output lab_08.html
-	cd content/labs && jupyter nbconvert --to html lab_08_airbnb_data_prep.ipynb --output lab_08_airbnb_data_prep.html
-	cd content/labs && jupyter nbconvert --to latex lab_08.ipynb --output lab_08.tex && texbuild lab_08.tex && rm lab_08.tex && rm -R lab_08_files/
-la09:
-	cd content/labs && jupyter nbconvert --to html lab_09.ipynb --output lab_09.html
-	cd content/labs && jupyter nbconvert --to html lab_09_data_prep.ipynb --output lab_09_data_prep.html
-	cd content/labs && jupyter nbconvert --to html lab_09-lecture_figures.ipynb --output lab_09-lecture_figures.html
-	cd content/labs && jupyter nbconvert --to latex lab_09.ipynb --output lab_09.tex && texbuild lab_09.tex && rm lab_09.tex && rm -R lab_09_files/
+la07:
+	cd content/labs && jupyter nbconvert --to html lab_07.ipynb --output lab_07.html
+	cd content/labs && jupyter nbconvert --to html lab_07_data_prep.ipynb --output lab_07_data_prep.html
+	cd content/labs && jupyter nbconvert --to html lab_07-lecture_figures.ipynb --output lab_07-lecture_figures.html
+	cd content/labs && jupyter nbconvert --to latex lab_07.ipynb --output lab_07.tex && texbuild lab_07.tex && rm lab_07.tex && rm -R lab_07_files/
 
 website:
 	jekyll build
@@ -80,7 +80,6 @@ handbook:
 
 test_stack:
 	source activate gds
-	content/infrastructure/ipnbdoctest.py content/infrastructure/check_gds_stack.ipynb content/infrastructure/temp_test.ipynb
-	rm content/infrastructure/temp_test.ipynb
+	jupyter nbconvert --execute --stdout content/infrastructure/check_gds_stack.ipynb
 	source deactivate
 
