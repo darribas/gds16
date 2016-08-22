@@ -80,7 +80,6 @@ handbook:
 
 test_stack:
 	source activate gds
-	content/infrastructure/ipnbdoctest.py content/infrastructure/check_gds_stack.ipynb content/infrastructure/temp_test.ipynb
-	rm content/infrastructure/temp_test.ipynb
+	jupyter nbconvert --execute --stdout content/infrastructure/check_gds_stack.ipynb
 	source deactivate
 
