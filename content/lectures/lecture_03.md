@@ -36,11 +36,13 @@ and color."*
 
 ##
 
+<CENTER>
 <div style="height: 600px;" markdown="1">
 ![](../content/lectures/figs/l03_monalisa_data.png)
  <span class="fragment"> 
 ![](../content/lectures/figs/l03_monalisa.png)
 </div>
+</CENTER>
 
 
 [[Source](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg/687px-Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg)]
