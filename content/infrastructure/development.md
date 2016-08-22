@@ -2,23 +2,19 @@
 
 ## Testing installation
 
-Once you have successfully run `install_gds_stack_XXX`, you can
+Once you have successfully installed the `gds` environment using 
+`install_gds_stack.yml`, you can
 programatically test the installation using the
-[`ipnbdoctest`](https://gist.github.com/minrk/2620735) script, by Min RK. 
-You can run it from this folder as follows (you might have to `chmod +x
-ipnbdoctest.py` first):
+`nbconvert` utility. 
+You can run it from this folder as follows :
 
-> ipnbdoctest.py check_gds_stack.ipynb temp_test.ipynb
+> jupyter nbconvert --execute --stdout check_gds_stack.ipynb
 
-Which will run it, write the output into `temp_test.ipynb`, and compare
-the output of both. 
+Which will run it and print the output into the command line. 
 
-Or, alternatively, you can also run it and delete the resulting notebook
-using the project's `Makefile`:
+Alternatively, you can also run it using the project's `Makefile`:
 
 > make test_stack
-
-**NOTE**: not working at the moment with a modern IPython install.
 
 ## Tweaking CSS theme for html slides
 
