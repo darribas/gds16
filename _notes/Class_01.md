@@ -12,8 +12,7 @@ title: Week 1 - Introduction
 As a way to wet your apetite about the content of the first class, I recommend
 you:
 
-* Listen to [this
-  interview](http://sciencefriday.com/segment/02/14/2014/solving-life-s-everyday-problems-with-data.html) with Hilary Mason, Max Shron, and Alex Pentland about the power of data.
+* Listen to [this interview](http://www.sciencefriday.com/segments/solving-lifes-everyday-problems-with-data/) with Hilary Mason, Max Shron, and Alex Pentland about the power of data.
 
 * Watch [this video](https://www.youtube.com/watch?v=h1ImEQKSkUQ) by Mike Flowers, Chief Analytics Officer, at
   the City of New York about how data is used to influence policy decisions.
