@@ -65,6 +65,12 @@ way!*
 <li class='fragment'> **Weeks 9-11**: catch up + prepare an awesome Assignment II </li>
 </ul>
 
+## Code
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/M_rfujuRHUU" frameborder="0" allowfullscreen></iframe>
+
+*"Even if you won't be a poet, you need to know how to write"*
+
 ## Python
 
 <CENTER>
@@ -99,9 +105,10 @@ This course is much more about **"learning to learn"** and **problem
 solving** rather than acquiring specific programming tricks or stats wizardry
 
 <ul>
-<li class='fragment'> Learn to ask questions </li>
-<li class='fragment'> Help others as much as you can (the best way to learn is to teach) </li>
-<li class='fragment'> Use heavily Google + Stack Overflow </li>
+<li class='fragment'> Learn to **ask** questions <span class='fragment'> (but don't expect
+    exact answers all the time!!!) </span></li>
+<li class='fragment'> **Help** others as much as you can (the best way to learn is to teach) </li>
+<li class='fragment'> **Search** heavily on Google + Stack Overflow </li>
 </ul>
 
 ## Assignments
@@ -180,12 +187,6 @@ Now, **data in itself is not very valuable**:
 knowledge** *
 </div>
 
-## 
-
-But wait, isn't statistics just that?
-
-Not only...
-
 ## Data Science
 
 [Source](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram):
@@ -197,16 +198,16 @@ Drew Conway
 
 ## Data Science
 
-Statistics is a *very* important part of DS...
+**Statistics** + ...
 
-... but not the only one:
+</ul>
+<li class='fragment'> **Computational tools** --> Programming (hence this course's tutorials!) </li>
+<li class='fragment'> **Comunication skills** --> "Story telling" (hence this course's assignments) </li>
+<li class='fragment'> **Domain expertise** --> Theories about why the data are the way they are (hence
+  the rest of your degree) </li>
+</ul>
 
-* **Computational tools** --> Programming (hence this course's tutorials!)
-* **Comunication skills** --> "Story telling" (hence this course's assignments)
-* **Domain expertise** --> Theories about why the data are the way they are (hence
-  the rest of your degree)
-
-Some examples...
+<span class='fragment'> Some examples... </span>
 
 ## {data-background=../content/lectures/figs/l01_chocolate.png}
 
