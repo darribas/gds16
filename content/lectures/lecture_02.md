@@ -228,7 +228,7 @@ Example: [Public Transit in Boston](http://mbtaviz.github.io/)
       structure (e.g. [Livehoods](http://livehoods.org))
 
 #
-## New **Vs** Old?
+## New **+** Old
 
 **Traditional** data:
 
@@ -240,15 +240,7 @@ Example: [Public Transit in Boston](http://mbtaviz.github.io/)
 * Cheap, fine-grained, and fast
 * Less reliable, harder to access, and potentially uninteresting
 
-## New **and** Old!
-
-<center>
-<img src="../content/lectures/figs/l02_cake.jpg" style="width:500px;height:500;">
-</center>
-
-<center>
-[[source](https://www.flickr.com/photos/kimberlykv/1414216225/in/photolist-39Yedn-cg51c-aPnd1a-6ycQ1g-39Yekr-fYoqEy-rsv5bX-83fuCd-e3MAae-9r6Ygz-AaQxC-i6smU-9VTTkr-86xwNr-5ZgCYg-7XtJCo-7GNZhD-5pV4Sn-2pRF-4oTo48-7YTrmC-b82Qui-qBFpzQ-e3MmKz-cPkb2h-6H9VEU-7fPhRd-6Xr7Cb-4pMfnz-4PbvSh-bDB9NK-9DQkmv-7DeHYS-7PPkGa-bGe5zR-9tCRQj-aMnfQX-dCn5Tw-97yk9R-9gNgRv-7iajjd-qwJw1v-cBaLCy-6ksVZt-8zimG7-buL1BE-64rAXB-e7syZf-q9Mdhv-oLgJYa)]
-</center>
+<span class='fragment'> --> 1 + 1 > 2 </span>
 
 ## Avoid the [streetlight effect](https://en.wikipedia.org/wiki/Streetlight_effect)
 

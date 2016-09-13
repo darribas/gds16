@@ -2,22 +2,22 @@
 % Introduction
 %[Dani Arribas-Bel](http://darribas.org)
 
-# Today
+## Today
 
 - This course
 - The (geo-)data revolution
-- (Geo-)Data Science
+- (Geo-)Data Science 
 
-# 
-
+#
 ## This course
 
 ## Quiz
 
-* Have you ever heard the terms **"Big Data"** and **"Data Science"**?
+* Can you think of a real-world context where data and statistics are being
+  used to make a difference?
+* Have you ever heard the term **"Big Data"**?
+* Have you ever heard the term **"Data Science"**?
 * Have you ever written a line of computer code?
-* How would you define in one sentence "Data Science"?
-* Do you think **"Geographic Data Science"** is closer to GIS or Statistics?
 
 ## 
 
@@ -25,14 +25,28 @@
 *More stats than a GIS course, more GIS than a stats course...*
 </div>
 
-## 
-
-<div text-align="center" markdown="1">
+<div text-align="center" markdown="1" class="fragment">
 *...but in a fun
 way!*
 </div>
 
-## Structure
+## Philosophy
+
+- (Lots of) **methods** and techniques
+    - General overview
+    - Intuition
+    - Very little math
+    - Lots of ways to continue on your own
+- Emphasis on the **application** and **use**
+- Close connection to **"real world"** applications
+
+## Logistics - Website
+
+[http://darribas.org/gds16](http://darribas.org/gds16)
+
+<iframe src="http://darribas.org/gds16" width=600 height=400 ></iframe>
+
+## Logistics - Format
 
 11 weeks of:
 
@@ -42,35 +56,71 @@ way!*
   (highly *employable*)
 - **Further readings**: how to go beyond the minimum
 
-**IMPORTANT**: Week 7 has no class! [Labs are booked so I recommend you spend
-the lab time working on your first assignment]
+## Logistics - Content
 
-## Website
+<ul>
+<li class='fragment'> **Weeks 1-3**: "big picture" lectures + introduction to 
+    computational tools (learning curve) </li>
+<li class='fragment'> **Weeks 4-8**: "meat" of the course (lots of concepts packed) </li>
+<li class='fragment'> **Weeks 9-11**: catch up + prepare an awesome Assignment II </li>
+</ul>
 
-[http://darribas.org/gds15](http://darribas.org/gds15)
+## Code
 
-<iframe src="http://darribas.org/gds15" width=600 height=400 ></iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/M_rfujuRHUU" frameborder="0" allowfullscreen></iframe>
 
-## Philosophy
+*"Even if you won't be a poet, you need to know how to write"*
 
-- (Lots of) **methods** and techniques
-    - General overview
-    - Intuition
-    - Very little math
-- Emphasis on the **application**
-- Close connection to **"real world"** applications
-- **FUN**
+## Python
+
+<CENTER>
+![](../content/lectures/figs/l01_xkcd-python.png)
+</CENTER>
+
+## Python
+
+<ul>
+* **General purpose** programming language
+* Sweet spot between *"proof-of-concept"* and *"production-ready"*
+* Industry standard: **GIS** (Esri, QGIS) and **Data Science** (Google, Facebook, Amazon, Netflix, The New York Times, NASA...)
+</ul>
+
+## Self-directed learning (or *"it's all about YOU"*)
+
+**Prepare** for the labs 
+
+<ul>
+<li class='fragment'> I won't be leading/lecturing at the computer labs </li>
+<li class='fragment'> Go over the notebooks between the lecture and the computer lab
+--> If the first time you see a notebook is at the lab, you won't be able to
+  follow on </li>
+<li class='fragment'> Bring questions, comments, feedback, (informed) rants to class/labs </li>
+<li class='fragment'> Use the forum (link on VITAL) </li>
+<li class='fragment'> Collaborate with your peers (it's **NOT** a zero-sum win!!!) </li>
+</ul>
+
+## More help!!!
+
+This course is much more about **"learning to learn"** and **problem 
+solving** rather than acquiring specific programming tricks or stats wizardry
+
+<ul>
+<li class='fragment'> Learn to **ask** questions <span class='fragment'> (but don't expect
+    exact answers all the time!!!) </span></li>
+<li class='fragment'> **Help** others as much as you can (the best way to learn is to teach) </li>
+<li class='fragment'> **Search** heavily on Google + Stack Overflow </li>
+</ul>
 
 ## Assignments
 
-- Mark based on two assignments, due:
+- Mark (mostly) based on two assignments, due:
 
-     1. Week 8 (50%)
-     1. Week 13 (50%)
+     1. Week 7 (47.5%)
+     1. Week 12 (47.5%)
 
 - Coursework
 
-- **Equivalent** to 2,500: report with **code**, **figures** (e.g. maps), and **text**
+- **Equivalent** to 2,500: report (*notebook*) with **code**, **figures** (e.g. maps), and **text**
 
 #
 
@@ -109,60 +159,12 @@ Many implications:
 
 ## *Why now?*
 
-## *Why now?*
-
+<div class="fragment">
 Advances in:
 
-* Computing power
-* Communication
+* Computing power and storage
+* Connectivity
 * Geospatial technology
-
-## *Why now?* --> Computing power
-
-[Source](https://upload.wikimedia.org/wikipedia/commons/e/e5/ENIAC-changing_a_tube.jpg)
-
-<div style="height: 600px;" markdown="1">
-![](../content/lectures/figs/l01_old_computer.jpg)
-</div>
-
-## *Why now?* --> Computing power
-
-[Source](https://pixabay.com/p-431230/)
-
-<div style="height: 600px;" markdown="1">
-![](../content/lectures/figs/l01_smartphone.jpg)
-</div>
-
-## *Why now?* --> Communication
-
-[Source](http://upload.wikimedia.org/wikipedia/commons/e/e1/Pigeon_Messengers_%28Harper%27s_Engraving%29.png)
-
-<div style="height: 600px;" markdown="1">
-![](../content/lectures/figs/l01_pigeon.png)
-</div>
-
-## *Why now?* --> Communication
-
-[Source](http://upload.wikimedia.org/wikipedia/commons/a/ab/Internet_of_Things.jpg)
-
-<div style="height: 600px;" markdown="1">
-![](../content/lectures/figs/l01_iot.jpg)
-</div>
-
-## *Why now?* --> Geospatial technology
-
-[Source](http://upload.wikimedia.org/wikipedia/commons/9/90/Astrolabe_%28PSF%29.png)
-
-<div style="height: 600px;" markdown="1">
-![](../content/lectures/figs/l01_astrolabe.png)
-</div>
-
-## *Why now?* --> Geospatial technology
-
-[Source](http://upload.wikimedia.org/wikipedia/commons/0/0a/GPS_on_smartphone_cycling.JPG)
-
-<div style="height: 600px;" markdown="1">
-![](../content/lectures/figs/l01_gps.jpg)
 </div>
 
 ## The (geo-)data revolution
@@ -185,12 +187,6 @@ Now, **data in itself is not very valuable**:
 knowledge** *
 </div>
 
-## 
-
-But wait, isn't statistics just that?
-
-Not only...
-
 ## Data Science
 
 [Source](http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram):
@@ -202,34 +198,20 @@ Drew Conway
 
 ## Data Science
 
-Statistics is a *very* important part of DS...
+**Statistics** + ...
 
-... but not the only one:
+</ul>
+<li class='fragment'> **Computational tools** --> Programming (hence this course's tutorials!) </li>
+<li class='fragment'> **Comunication skills** --> "Story telling" (hence this course's assignments) </li>
+<li class='fragment'> **Domain expertise** --> Theories about why the data are the way they are (hence
+  the rest of your degree) </li>
+</ul>
 
-* **Computational tools** --> Programming (hence this course's tutorials!)
-* **Comunication skills** --> "Story telling" (hence this course's assignments)
-* **Domain expertise** --> Theories about why the data are the way they are (hence
-  the rest of your degree)
-
-## Data Science
-
-* Not all new (standing on the shoulders of giants)
-* "The data becomes key part in the product"
-* Focus on actionability and solving particular problems
-
-Some examples...
+<span class='fragment'> Some examples... </span>
 
 ## {data-background=../content/lectures/figs/l01_chocolate.png}
 
-## Amazon {data-background=../content/lectures/figs/l01_chocolate.png}
-
 ## {data-background=../content/lectures/figs/l01_okcupid.png}
-
-## Dating sites {data-background=../content/lectures/figs/l01_okcupid.png}
-
-## {data-background=../content/lectures/figs/l01_uber.png}
-
-## Uber {data-background=../content/lectures/figs/l01_uber.png}
 
 #
 ## **Geo**-Data Science
@@ -244,15 +226,11 @@ Some examples...
 
 ## {data-background=../content/lectures/figs/l01_airbnb.png}
 
-## AirBnb neighborhoods {data-background=../content/lectures/figs/l01_airbnb.png}
+## {data-background=../content/lectures/figs/l01_uber.png}
 
 ## {data-background=../content/lectures/figs/l01_gmaps.png}
 
-## Google Maps routing {data-background=../content/lectures/figs/l01_gmaps.png}
-
 ## {data-background=../content/lectures/figs/l01_jsnow.jpg}
-
-## John Snow's cholera map {data-background=../content/lectures/figs/l01_jsnow.jpg}
 
 #
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'15 - Lecture 1</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
