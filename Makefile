@@ -33,8 +33,11 @@ la00:
 	cd content/labs && jupyter nbconvert --to html lab_00.ipynb --output lab_00.html
 	cd content/labs && jupyter nbconvert --to latex lab_00.ipynb --output lab_00.tex && texbuild lab_00.tex && rm lab_00.tex
 la01:
-	cd content/labs && jupyter nbconvert --to html lab_01.ipynb --output lab_01.html
-	cd content/labs && jupyter nbconvert --to latex lab_01.ipynb --output lab_01.tex && texbuild lab_01.tex && rm lab_01.tex && rm -R lab_01_files/
+	cd content/labs && jupyter nbconvert --to html lab_01_i.ipynb --output lab_01_i.html
+	cd content/labs && jupyter nbconvert --to latex lab_01_i.ipynb --output lab_01_i.tex && texbuild lab_01_i.tex && rm lab_01_i.tex && rm -R lab_01_i_files/
+	# Extra
+	cd content/labs && jupyter nbconvert --to html lab_01_ii.ipynb --output lab_01_ii.html
+	cd content/labs && jupyter nbconvert --to latex lab_01_ii.ipynb --output lab_01_ii.tex && texbuild lab_01_ii.tex && rm lab_01_ii.tex && rm -R lab_01_ii_files/
 la02:
 	cd content/labs && jupyter nbconvert --to html lab_02.ipynb --output lab_02.html
 	cd content/labs && jupyter nbconvert --to latex lab_02.ipynb --output lab_02.tex && texbuild lab_02.tex && rm lab_02.tex && rm -R lab_02_files/
