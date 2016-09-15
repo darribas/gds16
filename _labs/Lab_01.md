@@ -4,13 +4,21 @@ title: Lab 1 - Tidy Data
 
 ### Notebook
 
-- [ipynb](../content/labs/lab_01.ipynb)
-- [html](../content/labs/lab_01.html)
-- [pdf](../content/labs/lab_01.pdf)
+#### Part I - Tidy Data
+
+- [ipynb](../content/labs/lab_01_i.ipynb)
+- [html](../content/labs/lab_01_i.html)
+- [pdf](../content/labs/lab_01_i.pdf)
+
+#### Part II - Advanced Tricks
+
+- [ipynb](../content/labs/lab_01_ii.ipynb)
+- [html](../content/labs/lab_01_ii.html)
+- [pdf](../content/labs/lab_01_ii.pdf)
 
 ### Data
 
-This session uses the **"Census socio-demographics"** dataset. Go to the [Datasets](../datasets.html) tab to find out more information as well as instructions to download it.
+This session uses the **"Census socio-demographics"** datasets. Go to the [Datasets](../datasets.html) tab to find out more information as well as instructions to download it.
 
 ### Additional materials
 
