@@ -37,11 +37,11 @@ and color."*
 ##
 
 <CENTER>
-<div style="height: 600px;" markdown="1">
-![](../content/lectures/figs/l03_monalisa_data.png)
+<img src="../content/lectures/figs/l03_monalisa_data.png" alt="ML data"
+style="width:450px;height:450px;"/>
  <span class="fragment"> 
-![](../content/lectures/figs/l03_monalisa.png)
-</div>
+<img src="../content/lectures/figs/l03_monalisa.png" alt="ML pic"
+style="width:450px;height:450px;"/>
 </CENTER>
 
 
@@ -77,34 +77,39 @@ Maps <span class="fragment">  --> Data Maps (XVIIth.C.) <span class="fragment"> 
 
 [[Source](http://www.fisme.science.uu.nl/wiskrant/artikelen/hist_grafieken/begin/images/pyrometrie.gif)] XVIIIth. Cent. - *Pytometrie* by J. H Lambert 
 
-<div style="height: 500px;" markdown="1">
-![](../content/lectures/figs/l03_pyrometrie.gif)
-</div>
+<CENTER>
+<img src="../content/lectures/figs/l03_pyrometrie.gif" alt=""
+style="width:450px;height:450px;"/>
+</CENTER>
 
 ## Bar chart
 
 [[Source](https://upload.wikimedia.org/wikipedia/commons/3/3f/Playfair_Barchart.gif)] Playfair's bar chart in The Commercial and Political Atlas (1786)
 
-<div style="height: 500px;" markdown="1">
-![](../content/lectures/figs/l03_playfair.gif)
-</div>
+<CENTER>
+<img src="../content/lectures/figs/l03_playfair.gif" alt=""
+style="width:450px;height:450px;"/>
+</CENTER>
 
 ## Abstract line plot
 
 [[Source](https://hal.archives-ouvertes.fr/halshs-00663305/document)] Lambert - Evaporation rate against temperature, 1769
 
-<div style="height: 500px;" markdown="1">
-![](../content/lectures/figs/l03_lambert_plot.png)
-</div>
+<CENTER>
+<img src="../content/lectures/figs/l03_lambert_plot.png" alt=""
+style="width:450px;height:450px;"/>
+</CENTER>
 
 ## Minard - Napoleon army map (XIXth. Cent.)
 
 [[Source](https://en.wikipedia.org/wiki/File:Minard.png)]
 *"It may well be the best statistical graphic ever drawn"* (E. R. Tufte)
 
-<div style="height: 500px;" markdown="1">
-![](../content/lectures/figs/l03_minard.png)
-</div>
+<CENTER>
+<img src="../content/lectures/figs/l03_minard.png" alt=""
+style="width:650px;height:350px;"/>
+</CENTER>
+
 
 #
 ## **Geo**visualization
@@ -228,11 +233,8 @@ also takes much more time (althought changing)
 ## Interactive map
 
  <iframe 
-           width='100%' height='520' frameborder='0'
-               src='http://darribasbel.cartodb.com/viz/47da5d26-cc8a-11e3-84c3-0e230854a1cb/embed_map?title=false&description=false&search=false&shareable=false&cartodb_logo=true&layer_selector=true&legends=true&scrollwheel=true&fullscreen=true&sublayer_options=1%7C1%7C0%7C0&sql=&sw_lat=33.285&sw_lon=-119.030&ne_lat=34.763&ne_lon=-117.431'
-                   allowfullscreen webkitallowfullscreen mozallowfullscreen
-                   oallowfullscreen
-                       msallowfullscreen>
+           width='100%' height='450' frameborder='0'
+               src='http://maps.cdrc.ac.uk/#/geodemographics/oac11/default/BTTTFTT/13/-2.9700/53.4000/'>
 </iframe>
 
 #
