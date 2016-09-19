@@ -4,6 +4,14 @@ title: Lab 1 - Tidy Data
 
 ### Notebook
 
+---
+
+**TIP**: Here you can find a step-by-step tutorial about how to start up the notebook, download files, and access them through the notebook: 
+
+> [[HTML](../content/labs/begin.html) - [PDF](../content/labs/begin.pdf)]
+
+---
+
 #### Part I - Tidy Data
 
 - [ipynb](../content/labs/lab_01_i.ipynb)
