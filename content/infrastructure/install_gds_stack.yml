@@ -8,7 +8,7 @@ dependencies:
   - clusterpy
   - dask
   - geopandas
-  - ipython=5.*
+  - ipython
   - ipywidgets
   - jupyter
   - mplleaflet
