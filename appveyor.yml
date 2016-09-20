@@ -16,10 +16,10 @@ init:
 install:
   - "set PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%"
   - conda config --set always_yes yes --set changeps1 no
-  - conda update conda-build
   - conda update -q conda
   - conda install --yes psutil
   - conda info -a
+  - conda update conda-build
   - "conda-env create -f content/infrastructure/install_gds_stack.yml"
   - activate gds
 
