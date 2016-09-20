@@ -48,6 +48,9 @@ la02:
 la03:
 	cd content/labs && jupyter nbconvert --to html lab_03.ipynb --output lab_03.html
 	cd content/labs && jupyter nbconvert --to latex lab_03.ipynb --output lab_03.tex && texbuild lab_03.tex && rm lab_03.tex && rm -R lab_03_files/
+	# Extras
+	cd content/labs && jupyter nbconvert --to html lab_03_extras.ipynb --output lab_03_extras.html
+	cd content/labs && jupyter nbconvert --to latex lab_03_extras.ipynb --output lab_03_extras.tex && texbuild lab_03_extras.tex && rm lab_03_extras.tex && rm -R lab_03_extras_files/
 la04:
 	cd content/labs && jupyter nbconvert --to html lab_04.ipynb --output lab_04.html
 	cd content/labs && jupyter nbconvert --to latex lab_04.ipynb --output lab_04.tex && texbuild lab_04.tex && rm lab_04.tex && rm -R lab_04_files/
@@ -56,11 +59,9 @@ la05:
 	cd content/labs && jupyter nbconvert --to latex lab_05.ipynb --output lab_05.tex && texbuild lab_05.tex && rm lab_05.tex && rm -R lab_05_files/
 la06:
 	cd content/labs && jupyter nbconvert --to html lab_06.ipynb --output lab_06.html
-	cd content/labs && jupyter nbconvert --to html lab_06_airbnb_data_prep.ipynb --output lab_06_airbnb_data_prep.html
 	cd content/labs && jupyter nbconvert --to latex lab_06.ipynb --output lab_06.tex && texbuild lab_06.tex && rm lab_06.tex && rm -R lab_06_files/
 la07:
 	cd content/labs && jupyter nbconvert --to html lab_07.ipynb --output lab_07.html
-	cd content/labs && jupyter nbconvert --to html lab_07_data_prep.ipynb --output lab_07_data_prep.html
 	cd content/labs && jupyter nbconvert --to html lab_07-lecture_figures.ipynb --output lab_07-lecture_figures.html
 	cd content/labs && jupyter nbconvert --to latex lab_07.ipynb --output lab_07.tex && texbuild lab_07.tex && rm lab_07.tex && rm -R lab_07_files/
 
