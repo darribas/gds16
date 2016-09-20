@@ -62,7 +62,6 @@ la06:
 	cd content/labs && jupyter nbconvert --to latex lab_06.ipynb --output lab_06.tex && texbuild lab_06.tex && rm lab_06.tex && rm -R lab_06_files/
 la07:
 	cd content/labs && jupyter nbconvert --to html lab_07.ipynb --output lab_07.html
-	cd content/labs && jupyter nbconvert --to html lab_07_data_prep.ipynb --output lab_07_data_prep.html
 	cd content/labs && jupyter nbconvert --to html lab_07-lecture_figures.ipynb --output lab_07-lecture_figures.html
 	cd content/labs && jupyter nbconvert --to latex lab_07.ipynb --output lab_07.tex && texbuild lab_07.tex && rm lab_07.tex && rm -R lab_07_files/
 
