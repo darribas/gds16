@@ -6,6 +6,9 @@ environment:
     - PYTHON: "C:\\Miniconda-x64"
       PYTHON_VERSION: "2.7"
       PYTHON_ARCH: "64"
+    - PYTHON: "C:\\Miniconda"
+      PYTHON_VERSION: "2.7"
+      PYTHON_ARCH: "32"
 
 init:
   - "ECHO %PYTHON_VERSION% %MINICONDA%"
@@ -13,6 +16,7 @@ init:
 install:
   - "set PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%"
   - conda config --set always_yes yes --set changeps1 no
+  - conda update conda-build
   - conda update -q conda
   - conda install --yes psutil
   - conda info -a
