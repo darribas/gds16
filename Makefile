@@ -59,7 +59,6 @@ la05:
 	cd content/labs && jupyter nbconvert --to latex lab_05.ipynb --output lab_05.tex && texbuild lab_05.tex && rm lab_05.tex && rm -R lab_05_files/
 la06:
 	cd content/labs && jupyter nbconvert --to html lab_06.ipynb --output lab_06.html
-	cd content/labs && jupyter nbconvert --to html lab_06_airbnb_data_prep.ipynb --output lab_06_airbnb_data_prep.html
 	cd content/labs && jupyter nbconvert --to latex lab_06.ipynb --output lab_06.tex && texbuild lab_06.tex && rm lab_06.tex && rm -R lab_06_files/
 la07:
 	cd content/labs && jupyter nbconvert --to html lab_07.ipynb --output lab_07.html
