@@ -48,6 +48,9 @@ la02:
 la03:
 	cd content/labs && jupyter nbconvert --to html lab_03.ipynb --output lab_03.html
 	cd content/labs && jupyter nbconvert --to latex lab_03.ipynb --output lab_03.tex && texbuild lab_03.tex && rm lab_03.tex && rm -R lab_03_files/
+	# Extras
+	cd content/labs && jupyter nbconvert --to html lab_03_extras.ipynb --output lab_03_extras.html
+	cd content/labs && jupyter nbconvert --to latex lab_03_extras.ipynb --output lab_03_extras.tex && texbuild lab_03_extras.tex && rm lab_03_extras.tex && rm -R lab_03_extras_files/
 la04:
 	cd content/labs && jupyter nbconvert --to html lab_04.ipynb --output lab_04.html
 	cd content/labs && jupyter nbconvert --to latex lab_04.ipynb --output lab_04.tex && texbuild lab_04.tex && rm lab_04.tex && rm -R lab_04_files/

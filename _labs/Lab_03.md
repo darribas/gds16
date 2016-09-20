@@ -8,6 +8,12 @@ title: Lab 3 - Automated choropleths
 - [html](../content/labs/lab_03.html)
 - [pdf](../content/labs/lab_03.pdf)
 
+Extra materials:
+
+- [ipynb](../content/labs/lab_03_extras.ipynb)
+- [html](../content/labs/lab_03_extras.html)
+- [pdf](../content/labs/lab_03_extras.pdf)
+
 ### Data
 
 This session uses the **"Index of Multiple Deprivation""** dataset as well as the
