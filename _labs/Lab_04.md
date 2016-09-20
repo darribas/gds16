@@ -10,15 +10,9 @@ title: Lab 4 - Spatial Weights
 
 ### Data
 
-This session uses the **"Index of Multiple Deprivation""** dataset. Go to the
-[Datasets](../datasets.html) tab to find out more information as well as instructions to
-download it.
+This session uses the **"Index of Multiple Deprivation""** dataset. Go to the [Datasets](../datasets.html) tab to find out more information as well as instructions to download it.
 
 ### Additional materials
 
-* The ["User
-  Guides"](http://pysal.readthedocs.org/en/latest/users/tutorials/index.html) in `PySAL`'s documentation are an excellent resource to
-  better get to know the library. 
-* For this lab, the one about [Spatial
-  Weights](http://pysal.readthedocs.org/en/latest/users/tutorials/weights.html)
-  is particularly useful.
+* The ["User Guides"](http://pysal.readthedocs.org/en/latest/users/tutorials/index.html) in `PySAL`'s documentation are an excellent resource to better get to know the library. 
+* For this lab, the one about [Spatial Weights](http://pysal.readthedocs.org/en/latest/users/tutorials/weights.html) is particularly useful.
