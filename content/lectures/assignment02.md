@@ -17,7 +17,7 @@ Full detail list on course website
 
 # Limits
 
-* Submitted by **Friday, December 18th. 2015**
+* Submitted by **Monday, December 12th. 2016**
 * 750 words (sharp!)
 * Three (3) figures. To avoid "cheating", the definition of a figure this time
   is changed to "an object that comes out of a single `matplotlib.figure`". You create a
