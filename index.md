@@ -9,8 +9,7 @@ layout: default
 
 ### Module Handbook
 
-A pdf copy of the module handbook can be downloaded
-[here](content/handbook/handbook.pdf).
+A pdf copy of the module handbook can be downloaded [here](content/handbook/handbook.pdf).
 
 ### License
 
