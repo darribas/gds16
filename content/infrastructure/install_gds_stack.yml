@@ -17,6 +17,9 @@ dependencies:
   - mplleaflet
   - networkx
   - palettable
+  - PIL
+  - pip:
+        - contextily
   - qgrid
   - rasterio
   - scikit-learn
