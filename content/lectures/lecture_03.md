@@ -166,17 +166,13 @@ MacEachren & Kraak (1997) identify three main dimensions:
 
 ## Un/known: *fast* and *slow* maps
 
-## Fast maps
+## Fast maps [[Source](http://darribas.org/buzz_adam/)]
 
-[[Source](http://darribas.org/buzz_adam/)]
-
-<div style="height: 500px;" markdown="1">
+<div style="height: 450px;" markdown="1">
 ![](../content/lectures/figs/l03_adam_pc.png)
 </div>
 
-## Slow maps
-
-[[Source](http://www.tandfonline.com/doi/full/10.1080/21681376.2015.1067151)]
+## Slow maps [[Source](http://www.tandfonline.com/doi/full/10.1080/21681376.2015.1067151)]
 
 <div style="height: 500px;" markdown="1">
 ![](../content/lectures/figs/l03_pc4_low.png)
@@ -205,13 +201,12 @@ Pro-tip: know your audience and optimize for it
 ![](../content/lectures/figs/l03_easy_map.svg)
 </div>
 
-## Hard map
+## Hard map [[Source](http://epn.sagepub.com/content/44/9/2041.short)]
 
-[[Source](http://epn.sagepub.com/content/44/9/2041.short)]
-
-<div style="height: 500px;" markdown="1">
-![](../content/lectures/figs/l03_arribas_gerritse.png)
-</div>
+<CENTER>
+<img src="../content/lectures/figs/l03_arribas_gerritse.png" alt="DAB-G"
+style="width:550px;height:550px;"/>
+</CENTER>
 
 ## Interaction: one or many maps in one
 
@@ -248,11 +243,12 @@ also takes much more time (althought changing)
 
 ## *How to lie with maps*
 
-
-<div style="height: 300px;" markdown="1">
-![](../content/lectures/figs/l03_liv_equal.png)
-![](../content/lectures/figs/l03_liv_quantiles.png)
-</div>
+<CENTER>
+<img src="../content/lectures/figs/l03_liv_equal.png" alt="ML data"
+style="width:450px;;"/>
+<img src="../content/lectures/figs/l03_liv_quantiles.png" alt="ML pic"
+style="width:450px;;"/>
+</CENTER>
 
 
 ## *How to lie with maps*
@@ -275,9 +271,10 @@ data*
 
 ## Twitter clusters
 
-<div style="height: 500px;" markdown="1">
-![](../content/lectures/figs/l03_kde.png)
-</div>
+<CENTER>
+<img src="../content/lectures/figs/l03_kde.png" alt="ML data"
+style="width:550px;height:550px;"/>
+</CENTER>
 
 ## How to *be truthful* with maps
 
@@ -296,9 +293,10 @@ data*
 
 ## Statistics for Twitter clusters
 
-<div style="height: 500px;" markdown="1">
-![](../content/lectures/figs/l03_kfun.png)
-</div>
+<CENTER>
+<img src="../content/lectures/figs/l03_kfun.png" alt="ML data"
+style="width:550px;height:550px;"/>
+</CENTER>
 
 #
 ## Recapitulation
@@ -309,6 +307,6 @@ data*
 * Its power **can be misused**, but there are methods to limit this risk.
 
 #
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'15 - Lecture 3</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'16 - Lecture 3</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 

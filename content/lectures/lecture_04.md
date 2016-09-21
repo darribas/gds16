@@ -134,6 +134,15 @@ gradient of some sort*
 
 ## Color schemes
 
+Align with your purpose
+
+* **Categories**, non-ordered [<img src="../content/lectures/figs/l04_pal_qual.png" alt="Qualitative"
+style="width:300px;height:50px;vertical-align:middle;border:0px;" class="fragment"/>](https://jiffyclub.github.io/palettable/wesanderson/#fantasticfox2_5)
+* Graduated, **sequential** [<img src="../content/lectures/figs/l04_pal_seq.png" alt="Sequential"
+style="width:300px;height:50px;vertical-align:middle;border:0px;" class="fragment"/>](https://jiffyclub.github.io/palettable/colorbrewer/sequential/#rdpu_5)
+* Graduated, **divergent** [<img src="../content/lectures/figs/l04_pal_div.png" alt="Divergent"
+style="width:300px;height:50px;vertical-align:middle;border:0px;" class="fragment"/>](https://jiffyclub.github.io/palettable/colorbrewer/diverging/#rdylgn_5)
+
 ## {data-background=../content/lectures/figs/l04_colorbrewer.png}
 
 [[Source](http://colorbrewer2.org/)]
@@ -157,7 +166,7 @@ gradient of some sort*
 * **Splitting** happens based on the **numerical value**
 * Gives more weight to outliers if the distribution is skewed
 
-## {data-background=../content/lectures/figs/l04_equal_interval.png}
+## {data-background=../content/lectures/figs/l04_equal_interval.png data-background-size=contain}
 
 ## Quantiles
 
@@ -166,7 +175,7 @@ gradient of some sort*
 * **Splitting** based on the **rank** of the value
 * If distribution is skewed, it can put very different values in the same bin
 
-## {data-background=../content/lectures/figs/l04_quantiles.png}
+## {data-background=../content/lectures/figs/l04_quantiles.png data-background-size=contain}
 
 ## Other
 
@@ -202,13 +211,13 @@ interpretation, or obscures the intended representation. </li>
 
 <center>
 <img src="../content/lectures/figs/l04_liv_choro.png" alt=""
-style="width:400px;height:500px;"/>
+style="width:400px"/>
 <span class="fragment"> 
 <img src="../content/lectures/figs/l04_liv_carto.png" alt=""
-style="width:400px;height:500px;"/>
+style="width:400px"/>
 </center>
 
-## {data-background=../content/lectures/figs/l04_carto_consumption.png}
+## {data-background=../content/lectures/figs/l04_carto_consumption.png data-background-size=contain}
 
 [[Source](http://www.worldmapper.org/)]
 
@@ -249,19 +258,15 @@ create a map for each *bucket*
 </div>
 
 
-## 
+## {data-background-iframe="http://cartodb.github.io/torque/examples/navy_leaflet.html"}
 
 [[Source](http://cartodb.github.io/torque/examples/navy_leaflet.html)]
 
-<iframe width='100%' height='520' frameborder='0' src='http://cartodb.github.io/torque/examples/navy_leaflet.html' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
-## 
+## {data-background-iframe="https://d9a.cartodb.com/viz/fe9751f0-6ced-11e4-98f3-0e9d821ea90d/embed_map"}
 
 [[Source](https://cartodb.com/case-studies/la-metro-movement/)]
 
-<iframe width='100%' height='520' frameborder='0' src='https://d9a.cartodb.com/viz/fe9751f0-6ced-11e4-98f3-0e9d821ea90d/embed_map' allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-
 #
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'15 - Lecture 4</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'16 - Lecture 4</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
 
 
