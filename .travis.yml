@@ -14,11 +14,13 @@ before_install:
   - export PATH=`pwd`/miniconda/bin:$PATH
   - conda update --yes conda
   - conda install --yes psutil
-  - conda-env create -f content/infrastructure/install_gds_stack.yml
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then conda create --name gds --file gds_requirements_linux-64.txt; fi
+  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then conda create --name gds --file gds_requirements_osx-64.txt; fi
   - source activate gds
+  - pip install contextily
 
 script: 
-  - jupyter nbconvert --to markdown --execute --ExecutePreprocessor.timeout=120 content/infrastructure/check_gds_stack.ipynb
+  - jupyter nbconvert --to markdown --execute --ExecutePreprocessor.timeout=480 content/infrastructure/check_gds_stack.ipynb
  #- cd content/labs
  #- jupyter nbconvert --execute --ExecutePreprocessor.timeout=120 *.ipynb
 
