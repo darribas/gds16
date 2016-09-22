@@ -20,6 +20,7 @@ before_install:
   - pip install contextily
 
 script: 
+  - python -c "import fiona"
   - jupyter nbconvert --to markdown --execute --ExecutePreprocessor.timeout=480 content/infrastructure/check_gds_stack.ipynb
  #- cd content/labs
  #- jupyter nbconvert --execute --ExecutePreprocessor.timeout=120 *.ipynb
