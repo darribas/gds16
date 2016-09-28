@@ -8,7 +8,7 @@ title: Lab 1 - Tidy Data
 
 **TIP**: Here you can find a step-by-step tutorial about how to start up the notebook, download files, and access them through the notebook: 
 
-> [[HTML](../content/labs/begin.html) - [PDF](../content/labs/begin.pdf)]
+> [[HTML](../content/labs/begin.html)]
 
 ---
 

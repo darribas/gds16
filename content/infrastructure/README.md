@@ -9,25 +9,18 @@
 
 ---
 
-This course is best followed if you can reproduce the examples and tutorials
-provided with it. To do so, you will need to install in your machine a series
-of software packages. These are all open-source and available for free to
-download. Although there are several ways to approach this process, we first
-enumerate here the list of dependencies and then show two simple approaches to
-install them in different platforms.
+This course is best followed if you can reproduce the examples and tutorials provided with it. To do so, you will need to install in your machine a series of software packages. These are all open-source and available for free to download. Although there are several ways to approach this process, we first enumerate here the list of dependencies and then show two simple approaches to install them in different platforms.
 
 ## Complementary material to this guide
 
-This guide assumes you have the following additional files, available to
-download by clicking:
+This guide assumes you have the following additional files, available to download by clicking (to download them, right click on the link and select the "save as" option):
 
 * [`install_gds_stack.yml`](content/infrastructure/install_gds_stack.yml)
-*  [`check_gds_stack.ipynb`](content/infrastructure/check_gds_stack.ipynb)
+* [`check_gds_stack.ipynb`](content/infrastructure/check_gds_stack.ipynb)
 
 ## Dependencies
 
-The course requires the following libraries to be installed on your machine.
-The guide below provides instructions to install them satisfactory.
+The course requires the following libraries to be installed on your machine. The guide below provides instructions to install them satisfactory.
 
 * [`IPython`](http://ipython.org) 
 * [`Jupyter`](https://jupyter.org)
@@ -60,23 +53,13 @@ The guide below provides instructions to install them satisfactory.
 
 ### Anaconda
 
-The easiest way to install locally and natively the software stack required is
-to install a full scientific Python distribution. Although other good alternatives
-are also available (e.g. [Canopy](https://www.enthought.com/products/canopy/),
-[Sage](http://www.sagemath.org)), we recommend to install
-[Anaconda](https://store.continuum.io/cshop/anaconda/). Make sure, whichever
-option you pick, to install a **Python 2.7** version, NOT Python 3. Please follow the
-instructions provided in the link for installation.
+The easiest way to install locally and natively the software stack required is to install a full scientific Python distribution. Although other good alternatives are also available (e.g. [Canopy](https://www.enthought.com/products/canopy/), [Sage](http://www.sagemath.org)), we recommend to install [Anaconda](https://store.continuum.io/cshop/anaconda/). Make sure, whichever option you pick, to install a **Python 2.7** version, NOT Python 3. Please follow the instructions provided in the link for installation.
 
-Once you have a fully working Anaconda distribution installed in your
-computer, you can setup an isolated environment that contains all the required
-libraries by running the install script provided
-with this guide. Exact instructions vary depending on the platform you are on. 
+Once you have a fully working Anaconda distribution installed in your computer, you can setup an isolated environment that contains all the required libraries by running the install script provided with this guide. Exact instructions vary depending on the platform you are on. 
 
 #### macOS/Linux
 
-Open up a terminal ("Applications --> Utilities --> Terminal" in macOS and 
-"ctr+alt+T" in Linux) and run the following commands:
+Open up a terminal ("Applications --> Utilities --> Terminal" in macOS and  "ctr+alt+T" in Linux) and run the following commands:
 
 * Navigate to the folder where this file is (e.g. Downloads):
 
@@ -98,8 +81,7 @@ Open up a terminal ("Applications --> Utilities --> Terminal" in macOS and
 
 #### Windows
 
-Open up the Anaconda Command Prompt (search for it on the Startup Menu) and
-run the following commands:
+Open up the Anaconda Command Prompt (search for it on the Startup Menu) and run the following commands:
 
 * Navigate to the folder where this file is (e.g. Downloads):
 
@@ -136,12 +118,9 @@ To check things have installed correctly, an additional file is included, `check
     activate gds
     ```
 
-You should now see `(gds)` on the beginning of the line at the
-terminal/command prompt. You can now run the test as:
+You should now see `(gds)` on the beginning of the line at the terminal/command prompt. You can now run the test as:
 
 `jupyter nbconvert --execute check_gds_stack.ipynb`
 
-This will run and, when finished, produce an HTML file in the same folder.
-Open it and check there are no errors reported. If that is the case, you are
-good to go!
+This will run and, when finished, produce an HTML file in the same folder. Open it and check there are no errors reported. If that is the case, you are good to go!
 
