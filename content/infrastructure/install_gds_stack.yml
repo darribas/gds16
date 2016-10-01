@@ -2,6 +2,7 @@
 name: gds
 channels:
   - ioos
+  - defaults
   - conda-forge
 dependencies:
   - python=2.7
@@ -17,9 +18,8 @@ dependencies:
   - mplleaflet
   - networkx
   - palettable
-  - PIL
-  - pip:
-        - contextily
+  - pillow
+  - contextily
   - qgrid
   - rasterio
   - scikit-learn
