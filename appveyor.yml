@@ -20,7 +20,6 @@ install:
   - conda update -q conda
   - conda info -a
   - "conda-env create -f content/infrastructure/install_gds_stack.yml"
-    #- "conda create --name gds --file content/infrastructure/gds_requirements_win-%PYTHON_ARCH%.txt"
   - activate gds
 
 test_script:
