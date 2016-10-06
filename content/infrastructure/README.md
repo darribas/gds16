@@ -18,37 +18,6 @@ This guide assumes you have the following additional files, available to downloa
 * [`install_gds_stack.yml`](content/infrastructure/install_gds_stack.yml)
 * [`check_gds_stack.ipynb`](content/infrastructure/check_gds_stack.ipynb)
 
-## Dependencies
-
-The course requires the following libraries to be installed on your machine. The guide below provides instructions to install them satisfactory.
-
-* [`IPython`](http://ipython.org) 
-* [`Jupyter`](https://jupyter.org)
-* [Python 2.7](https://www.python.org)
-
----
-
-* [`bokeh`](http://bokeh.pydata.org/en/latest/)
-* [`matplotlib`](http://matplotlib.org)
-* [`mplleaflet`](https://github.com/jwass/mplleaflet)
-* [`seaborn`](http://stanford.edu/~mwaskom/software/seaborn/)
-
----
-
-* [`qgrid`](https://github.com/quantopian/qgrid)
-* [`pandas`](http://pandas.pydata.org)
-* [`scikit-learn`](http://scikit-learn.org/stable/index.html)
-* [`statsmodels`](http://www.statsmodels.org/stable/index.html)
-* [`xlrd`](https://pypi.python.org/pypi/xlrd)
-* [`xlsxwriter`](https://xlsxwriter.readthedocs.io)
-
----
-
-* [`clusterpy`](http://www.rise-group.org/risem/clusterpy/)
-* [`geopandas`](http://geopandas.org)
-* [`PySAL`](http://pysal.org)
-* [`rasterio`](https://pypi.python.org/pypi/rasterio/)
-
 ## Installation
 
 ### Anaconda
@@ -123,4 +92,36 @@ You should now see `(gds)` on the beginning of the line at the terminal/command 
 `jupyter nbconvert --execute check_gds_stack.ipynb`
 
 This will run and, when finished, produce an HTML file in the same folder. Open it and check there are no errors reported. If that is the case, you are good to go!
+
+## Dependencies
+
+The course requires the following libraries to be installed on your machine. The guide above provides instructions to install them satisfactory but, in case you want to install them separately on your own (recommended only if you know what you're doing), this is the list:
+
+* [`IPython`](http://ipython.org) 
+* [`Jupyter`](https://jupyter.org)
+* [Python 2.7](https://www.python.org)
+
+---
+
+* [`bokeh`](http://bokeh.pydata.org/en/latest/)
+* [`matplotlib`](http://matplotlib.org)
+* [`mplleaflet`](https://github.com/jwass/mplleaflet)
+* [`seaborn`](http://stanford.edu/~mwaskom/software/seaborn/)
+
+---
+
+* [`qgrid`](https://github.com/quantopian/qgrid)
+* [`pandas`](http://pandas.pydata.org)
+* [`scikit-learn`](http://scikit-learn.org/stable/index.html)
+* [`statsmodels`](http://www.statsmodels.org/stable/index.html)
+* [`xlrd`](https://pypi.python.org/pypi/xlrd)
+* [`xlsxwriter`](https://xlsxwriter.readthedocs.io)
+
+---
+
+* [`clusterpy`](http://www.rise-group.org/risem/clusterpy/)
+* [`geopandas`](http://geopandas.org)
+* [`PySAL`](http://pysal.org)
+* [`rasterio`](https://pypi.python.org/pypi/rasterio/)
+
 
