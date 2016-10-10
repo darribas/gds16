@@ -6,4 +6,12 @@ This is a compilation of spatial data about the city of Liverpool produced by th
 
 **Instructions**: you will need to be registered on the CDRC website, which is free and very easy. Once logged in, click on the link provided above and select "Download" on the dataset's page.
 
+#### UK raster
+
+Lab 2 includes a blurb on displaying raster data. To do that, it uses a file
+from the Ordnance Survey that is available from the OS website:
+
+> https://www.ordnancesurvey.co.uk/opendatadownload/products.html
+
+For convenience, the file is also available for download [here](../content/labs/figs/lab02_GBOverview.tif).
 
