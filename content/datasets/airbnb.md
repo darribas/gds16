@@ -24,7 +24,7 @@ For every polygon, the following variables are provided:
 
 **Instructions**: the data is provided as a `GeoJSON` file and is available for download in the following url (right-clik and "Save As" on the link):
 
-> [http://darribas.org/gds15/content/labs/data/ilm_abb.geojson](content/labs/data/ilm_abb.geojson)
+> [http://darribas.org/gds16/content/labs/data/ilm_abb.geojson](content/labs/data/ilm_abb.geojson)
 
 The lab also uses an additional file that contains the boundary lines of the London boroughs, which has been obtained from:
 
@@ -32,7 +32,7 @@ The lab also uses an additional file that contains the boundary lines of the Lon
 
 But can also be downloaded from the course website:
 
-> [http://darribas.org/gds15/content/labs/data/london_boroughs.geojson](content/labs/data/london_boroughs.geojson)
+> [http://darribas.org/gds16/content/labs/data/london_boroughs.geojson](content/labs/data/london_boroughs.geojson)
 
 **Additional files**: A Jupyter notebook showing the process of cleaning and aggregation carried out from the original data to the file provided here can be accessed in [`.ipynb`](content/labs/lab_08_airbnb_data_prep.ipynb) and [html](content/labs/lab_08_airbnb_data_prep.html) format.
 
