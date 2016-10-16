@@ -13,5 +13,4 @@ from the Ordnance Survey that is available from the OS website:
 
 > https://www.ordnancesurvey.co.uk/opendatadownload/products.html
 
-For convenience, the file is also available for download [here](../content/labs/figs/lab02_GBOverview.tif).
-
+For convenience, the file is also available for download [here](http://darribas.org/gds16/content/labs/figs/lab02_GBOverview.tif).
