@@ -10,7 +10,7 @@ title: Week 8 - Points
 ### To do before class
 
 * Lecture on  "Point Pattern Analysis Basics" by Luc Anselin
-  ([link](https://geodacenter.asu.edu/point-pattern-a) to 45min video).
+  ([link](https://www.youtube.com/watch?v=Z2iT4JpqGZg&list=PLzREt6r1NenlmAiF3ds5_WGVAG1rTYSK-&index=1) to 45min video, and [link](https://www.youtube.com/watch?v=BN94XXT6Io4) to a more recent 6min intro).
 
 ### Related readings
 
