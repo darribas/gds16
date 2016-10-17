@@ -10,9 +10,9 @@ title: Week 4 - Choropleth mapping
 ### To do before class
 
 * Lecture on  "Statistical maps" by Luc Anselin
-  ([link](https://geodacenter.asu.edu/statistical-map) to 25min video).
+  ([link](https://www.youtube.com/watch?v=6-weK5J6xRI) to 25min video).
 * Lecture on "Special maps" by Luc Anselin
-  ([link](https://geodacenter.asu.edu/special-maps) to 20min video).
+  ([link](https://www.youtube.com/watch?v=jKgxNZBCcs0) to 20min video).
 
 ### Related readings
 
