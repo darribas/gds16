@@ -9,7 +9,7 @@ title: Week 09 - Causal Inference
 
 ### To do before class
 
-* Talkby Dan Graham ([22min. video](https://www.youtube.com/watch?v=acKGyMRIxYc))
+* Talk by Dan Graham ([22min. video](https://www.youtube.com/watch?v=acKGyMRIxYc))
   where he clearly explains the main issues about causality using
   transport studies as the domain of application.
 * Talk by George Davey Smith about causality in epidemiology
