@@ -10,10 +10,11 @@ title: Week 5 - Spatial Weights
 ### To do before class
 
 * Lecture on  "Spatial Weights" by Luc Anselin
-  ([link](https://geodacenter.asu.edu/spatial-weights-4) to 28min video). Keep
+  ([link](https://www.youtube.com/watch?v=ydFmI6ZGLQ8) to 34min video). Keep
   in mind the motivation in this case if focused on spatial regression.
 * Lecture on "Special lag" by Luc Anselin
-  ([link](https://geodacenter.asu.edu/spatial-lag) to 22min video).
+  ([link](https://www.youtube.com/watch?v=MQACCcfTpXc) to video, you can
+  ignore the last five minutes as they are a bit more advanced).
 
 ### Related readings
 
