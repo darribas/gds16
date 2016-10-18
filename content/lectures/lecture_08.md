@@ -27,10 +27,10 @@ data
 Examples:
 
 <ul>
-<li class="fragment"> Cities (in most cases) </li>
-<li class="fragment"> Buildings </li>
-<li class="fragment"> Polygons represented as their centroid </li>
-<li class="fragment"> ... </li>
+<li> Cities (in most cases) </li>
+<li> Buildings </li>
+<li> Polygons represented as their centroid </li>
+<li> ... </li>
 </ul>
 
 ## When points are not polygons
@@ -47,16 +47,6 @@ Point data are not only a different geometry than polygons or lines...
   **occur anywhere** </li>
 <li class="fragment current-visible"> The **location** of the event is **part** of what we are trying to understand/**model** </li>
 <li class="fragment current-visible"> The interest focuses on **characterizing** the **pattern**
-that the points follow **over space**
-</ul>
-
-## Points unlike polygons
-
-<ul>
-<li>  Rather than exhausting the entire space, points can be **events** subject to
-  **occur anywhere** </li>
-<li> The **location** of the event is **part** of what we are trying to understand/**model** </li>
-<li> The interest focuses on **characterizing** the **pattern**
 that the points follow **over space**
 </ul>
 
@@ -99,8 +89,8 @@ specific locations
 
 Describe, characterize, and explain point patterns, focusing on their **generating process**
 
-* Visual exploration
-* Clustering properties
+* <u>Visual exploration</u>
+* *Clustering* properties and <u>*clusters*</u>
 * Statistical modeling of the underlying processes
 
 #
@@ -175,7 +165,7 @@ $+$
 </center>
 
 <div class="fragment">
-Points usually represent events that affect to only **part** of the population
+Points usually represent events that affect only **part** of the population
 and hence are best considered as **rates** (see Lecture 4)
 </div>
 
@@ -215,15 +205,49 @@ style="width:400px;height:500px;"/>
 </center>
 
 #
-## Recapitulation
+## Finding clusters of PPs
 
-* **Points** can be understood as a **fixed** or **random** process over space
-* If seen as a random, *where* points are located is part of the interest in
-  the (**point pattern**) analysis
-* **Visualization** of point patterns can be done through **aggregation** or
-  **smoothing** (but issues relating to the MAUP and underlying populations need
-  to be kept in mind!)
+##
 
+<span class='fragment fade-out'> **Cluster** is a hard to define term </span>
+
+<CENTER>
+<span class='fragment'> *Concentrations/agglomerations of points over space, significantly more so than in the rest
+of the space considered* </span>
+</CENTER>
+
+<span class='fragment'> Huge literature spanning **spatial analysis**, **statistics** and **computer science**. Today, we'll look at... </span>
+
+##
+
+`D`<span class='fragment'>ensity</span> 
+
+`B`<span class='fragment'>ased</span> 
+
+`S`<span class='fragment'>patial</span> 
+
+`C`<span class='fragment'>lustering of</span>
+
+`A`<span class='fragment'>pplications with</span> 
+
+`N`<span class='fragment'>oise</span>
+
+##
+
+<iframe width="700" height="500" src="https://www.youtube.com/embed/5E097ZLE9Sg" frameborder="0" allowfullscreen></iframe>
+
+## `DBSCAN`
+
+<small>(Additional)</small> **Pros**:
+
+- Not necessarily spatial
+- Very fast to run so $\rightarrow$ scales relatively well $\rightarrow$
+  applicable to large datasets
+
+<small>(Additional)</small> **Cons**:
+
+- Not based on any probabilistic model (no inference)
+- Hard to learn about the underlying process
 
 #
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Geographic Data Science'16 - Lecture 8</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://darribas.org" property="cc:attributionName" rel="cc:attributionURL">Dani Arribas-Bel</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
