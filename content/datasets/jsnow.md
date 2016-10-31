@@ -6,6 +6,6 @@ The folder contains the street network, point data for the location of the pumps
 
 All the necessary data are available as a single download from the course website on the following link:
 
-> [http://darribas.org/gds15/content/labs/data/john_snow.zip](content/labs/data/john_snow.zip)
+> [http://darribas.org/gds16/content/labs/data/john_snow.zip](content/labs/data/john_snow.zip)
 
 
