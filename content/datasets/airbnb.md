@@ -30,7 +30,7 @@ The lab also uses an additional file that contains the boundary lines of the Lon
 
 > [https://github.com/radoi90/housequest-data/blob/master/london_boroughs.geojson](https://github.com/radoi90/housequest-data/blob/master/london_boroughs.geojson)
 
-But can also be downloaded from the course website:
+However, some students have experienced problems with the original file. If that is the case for you, go ahead and download this version from the course website:
 
 > [http://darribas.org/gds16/content/labs/data/london_boroughs.geojson](content/labs/data/london_boroughs.geojson)
 
