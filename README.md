@@ -18,6 +18,23 @@ access them is through the website:
 
 **NOTE**: This course is an evolution and update of [GDS'15](http://darribas.org/gds15).
 
+## Citation
+
+[![DOI](https://zenodo.org/badge/65053914.svg)](https://zenodo.org/badge/latestdoi/65053914)
+
+If you use material from this course, I would appreciate if you used the
+following citation:
+
+```
+@online{darribas_gds15,
+  author = {Dani Arribas-Bel},
+  title = {Geographic Data Science'16},
+  year = 2017,
+  url = {http://darribas.org/gds16},
+  urldate = {2017-02-10},
+  doi = {10.5281/zenodo.290239}
+}
+```
 
 ## License
 
