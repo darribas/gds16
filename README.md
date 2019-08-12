@@ -1,5 +1,14 @@
 # Geographic Data Science
 
+---
+
+**`IMPORTANT`**: this is the repository for the 2016 version of the GDS course.
+A more recent (and recommended) one is available at:
+
+> [https://github.com/darribas/gds17](https://github.com/darribas/gds17)
+
+---
+
 | OS      | Status |
 | ------- | -----------------|
 | Linux & macOS   | [![Build Status](https://travis-ci.org/darribas/gds16.svg?branch=master)](https://travis-ci.org/darribas/gds16) |
